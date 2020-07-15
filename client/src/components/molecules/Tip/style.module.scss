@@ -1,0 +1,21 @@
+.tip {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: rgba(0.8, 0.64, 0.3, 0.3);
+
+  &__message {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    color: brown;
+    padding: 20px;
+    margin: 0;
+    border: 2px solid brown;
+    background: white;
+  }
+}
