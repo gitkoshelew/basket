@@ -1,0 +1,14 @@
+.nav {
+  &__list {
+    padding-left: 0;
+    &__item {
+      margin-right: 10px;
+      border-bottom: 2px solid transparent;
+      text-decoration: none;
+      color: blueviolet;
+      &_active {
+        border-bottom: 2px solid blueviolet;
+      }
+    }
+  }
+}

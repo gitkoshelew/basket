@@ -1,0 +1,25 @@
+.basket {
+  &__units {
+    padding: 10px 0;
+    &__label {
+      padding: 10px 0;
+      display: block;
+    }
+    &__radio {
+      margin-right: 10px;
+    }
+  }
+  &__cards {
+    display: flex;
+    flex-direction: column-reverse;
+    &__pair {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__mark {
+      font-size: 32px;
+    }
+  }
+}
